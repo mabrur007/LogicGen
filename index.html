@@ -78,6 +78,28 @@
       html {
         scroll-behavior: smooth;
       }
+
+      /* width */
+      ::-webkit-scrollbar {
+          width: 10px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+          background: #888;
+          border-radius: 5px;
+      }
+      
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+          background: rgb(79 70 229);
+          border-radius: 5px;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+          background: #555;
+      }
     </style>
   </head>
   <body class="bg-gray-50 text-gray-800">
@@ -271,7 +293,40 @@
                 data-feather="shopping-bag"
                 class="w-12 h-12 text-indigo-600 mb-4"
               ></i>
-              <h3 class="text-xl font-semibold mb-4">E-commerce</h3>
+              <h3 class="text-xl font-semibold mb-4">Retail</h3>
+              <p class="text-gray-600">
+                Personalize customer experiences and optimize inventory
+                management using AI.
+              </p>
+            </div>
+            <div class="card animate-slideIn delay-200">
+              <i
+                data-feather="settings"
+                class="w-12 h-12 text-indigo-600 mb-4"
+              ></i>
+              <h3 class="text-xl font-semibold mb-4">Manufacturing</h3>
+              <p class="text-gray-600">
+                Personalize customer experiences and optimize inventory
+                management using AI.
+              </p>
+            </div>
+            <div class="card animate-slideIn delay-200">
+              <i
+                data-feather="truck"
+                class="w-12 h-12 text-indigo-600 mb-4"
+              ></i>
+              <h3 class="text-xl font-semibold mb-4">Agriculture</h3>
+              <p class="text-gray-600">
+                Personalize customer experiences and optimize inventory
+                management using AI.
+              </p>
+            </div>
+            <div class="card animate-slideIn delay-200">
+              <i
+                data-feather="bar-chart-2"
+                class="w-12 h-12 text-indigo-600 mb-4"
+              ></i>
+              <h3 class="text-xl font-semibold mb-4">Telecommunications</h3>
               <p class="text-gray-600">
                 Personalize customer experiences and optimize inventory
                 management using AI.
@@ -283,7 +338,7 @@
 
       <!-- Testimonials -->
       <section class="py-20 bg-gray-100">
-        <div class="container mx-auto px-6">
+        <!-- <div class="container mx-auto px-6">
           <h2 class="section-heading">What Our Clients Say</h2>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div class="card animate-slideIn">
@@ -323,6 +378,11 @@
               </p>
             </div>
           </div>
+        </div> -->
+        <div class="container px-6">
+          <h2 class="mb-6 font-bold text-center text-[#4f46e5]">What Our Clients Say</h2>
+          <iframe class="mx-auto" src='https://widgets.sociablekit.com/linkedin-recommendations/iframe/25460501' frameborder='0' width='80%' height='600'></iframe>
+
         </div>
       </section>
 
@@ -349,9 +409,9 @@
             </div>
             <div class="w-full lg:w-1/2 lg:pl-16">
               <img
-                src="https://img.freepik.com/free-photo/millennial-asia-businessmen-businesswomen-meeting-brainstorming-ideas-about-new-paperwork-project-colleagues-working-together-planning-success-strategy-enjoy-teamwork-small-modern-night-office_7861-2386.jpg?t=st=1724828677~exp=1724832277~hmac=ef1366a3ed1e3e957dbba35b42cd700992a9c49c1f0fa0f969b3769bb48ea47d&w=826"
+                src="./images/logo.svg"
                 alt="LogicZen.ai Team"
-                class="rounded-lg shadow-xl mx-auto animate-fadeIn"
+                class="rounded-lg shadow-2xl mx-auto animate-fadeIn"
               />
             </div>
           </div>
@@ -477,7 +537,8 @@
             <h4 class="text-lg font-semibold mb-4">Connect</h4>
             <div class="flex space-x-4">
               <a
-                href="#"
+                href="https://www.facebook.com/logiczenai
+                "
                 class="text-gray-400 hover:text-white transition duration-300"
               >
                 <i data-feather="facebook" class="w-6 h-6"></i>
@@ -489,7 +550,8 @@
                 <i data-feather="twitter" class="w-6 h-6"></i>
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/company/logiczen-ai/
+                "
                 class="text-gray-400 hover:text-white transition duration-300"
               >
                 <i data-feather="linkedin" class="w-6 h-6"></i>
@@ -497,20 +559,15 @@
             </div>
           </div>
           <div>
-            <h4 class="text-lg font-semibold mb-4">Newsletter</h4>
-            <form class="flex">
-              <input
-                type="email"
-                placeholder="Your email"
-                class="p-2 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
-              />
-              <button
-                type="submit"
-                class="bg-indigo-600 text-white p-2 rounded-r-lg hover:bg-indigo-700 transition duration-300"
-              >
-                Subscribe
-              </button>
-            </form>
+            <h4 class="text-lg font-semibold mb-4">Contact Us</h4>
+            <p class="text-gray-400 mb-6">
+              Road - 14, DIT Project, Merul Badda, Dhaka - 1212, Dhaka, Bangladesh
+            </p>
+            <a href="tel:+880 1747-123472
+            " class="text-gray-400 hover:text-white transition duration-300 flex space-x-2 items-center">
+              <i data-feather="phone-call" class="w-4 h-4"></i>
+              <span>+880 1747-123472</span>
+            </a>
           </div>
         </div>
       </div>
