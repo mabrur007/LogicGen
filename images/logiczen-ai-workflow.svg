@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <defs>
+    <style>
+      .text { font-family: Arial, sans-serif; font-size: 16px; fill: #333; }
+      .title { font-size: 28px; font-weight: bold; fill: #1f2937; }
+      .box { fill: #fff; stroke-width: 2; }
+      .indigo { stroke: #4f46e5; }
+      .purple { stroke: #9333ea; }
+      .arrow { fill: none; stroke: #9333ea; stroke-width: 2; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#9333ea" />
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="450" y="50" text-anchor="middle" class="text title">LogicZen.ai: AI-Powered Business Solutions</text>
+  
+  <!-- Step 1: Requirements -->
+  <rect x="40" y="120" width="160" height="80" rx="10" class="box indigo" />
+  <text x="120" y="165" text-anchor="middle" class="text">1. Requirements</text>
+  
+  <!-- Step 2: Analysis -->
+  <rect x="260" y="120" width="160" height="80" rx="10" class="box purple" />
+  <text x="340" y="165" text-anchor="middle" class="text">2. Analysis</text>
+  
+  <!-- Step 3: Development -->
+  <rect x="480" y="120" width="160" height="80" rx="10" class="box indigo" />
+  <text x="560" y="165" text-anchor="middle" class="text">3. Development</text>
+  
+  <!-- Step 4: Deployment -->
+  <rect x="700" y="120" width="160" height="80" rx="10" class="box purple" />
+  <text x="780" y="165" text-anchor="middle" class="text">4. Deployment</text>
+  
+  <!-- Step 5: Integration -->
+  <rect x="370" y="380" width="160" height="80" rx="10" class="box indigo" />
+  <text x="450" y="425" text-anchor="middle" class="text">5. Integration</text>
+  
+  <!-- Arrows -->
+  <path d="M200 160 H260" class="arrow" marker-end="url(#arrowhead)" />
+  <path d="M420 160 H480" class="arrow" marker-end="url(#arrowhead)" />
+  <path d="M640 160 H700" class="arrow" marker-end="url(#arrowhead)" />
+  <path d="M780 200 Q780 420 530 420" class="arrow" marker-end="url(#arrowhead)" />
+  <path d="M370 420 Q120 420 120 200" class="arrow" marker-end="url(#arrowhead)" />
+</svg>
